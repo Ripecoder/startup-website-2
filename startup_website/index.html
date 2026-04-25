@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Verbe — AI Chatbot for Real Estate Leads</title>
+  <meta name="description" content="Get 3–5 qualified property buyers in 14 days. Verbe captures, qualifies, and sends ready-to-visit leads directly to your phone." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════ STICKY HEADER ═══════════════ -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="Verbe home">
+        <span class="logo-mark">V</span>
+        <span class="logo-text">Verbe</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#proof">Results</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#install">Install</a>
+      </nav>
+      <a href="#pricing" class="btn btn-primary btn-sm header-cta">Start ₹999 Pilot</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+      <a href="#how-it-works">How it works</a>
+      <a href="#proof">Results</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#install">Install</a>
+      <a href="#pricing" class="btn btn-primary">Start ₹999 Pilot</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════ HERO ═══════════════ -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-grid" aria-hidden="true"></div>
+      <div class="hero-blob hero-blob-1" aria-hidden="true"></div>
+      <div class="hero-blob hero-blob-2" aria-hidden="true"></div>
+
+      <div class="container hero-inner">
+        <div class="hero-badge animate-fade-up" style="--delay:0s">
+          <span class="badge-dot"></span>
+          AI-powered lead generation · Instant setup
+        </div>
+
+        <h1 class="hero-headline animate-fade-up" style="--delay:0.08s">
+          Get <span class="highlight">3–5 qualified</span><br />
+          property buyers<br />
+          in 14 days.
+        </h1>
+
+        <p class="hero-sub animate-fade-up" style="--delay:0.16s">
+          We capture, qualify, and send ready-to-visit leads<br class="br-desktop" />
+          directly to you — all via a chatbot on your site.
+        </p>
+
+        <div class="hero-actions animate-fade-up" style="--delay:0.24s">
+          <a href="#pricing" class="btn btn-primary btn-lg">
+            Start ₹999 Pilot
+            <svg class="btn-arrow" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#demo" class="btn btn-ghost btn-lg">
+            <svg class="btn-play" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M8 7l5 3-5 3V7z" fill="currentColor"/></svg>
+            Try Demo
+          </a>
+        </div>
+
+        <div class="hero-proof animate-fade-up" style="--delay:0.32s">
+          <div class="proof-pill">
+            <span class="proof-num">12+</span> leads in 10 days
+          </div>
+          <div class="proof-divider" aria-hidden="true">·</div>
+          <div class="proof-pill">
+            <span class="proof-num">5</span> site visits booked
+          </div>
+          <div class="proof-divider" aria-hidden="true">·</div>
+          <div class="proof-pill">Setup in <span class="proof-num">30s</span></div>
+        </div>
+      </div>
+
+      <!-- Floating chat bubble visual -->
+      <div class="hero-chat-preview animate-fade-up" style="--delay:0.4s" aria-hidden="true">
+        <div class="chat-window">
+          <div class="chat-header">
+            <span class="chat-dot online"></span>
+            <span>Verbe Assistant</span>
+          </div>
+          <div class="chat-body">
+            <div class="chat-msg bot">Hi! Looking for a property? Let me help you find the perfect match 👋</div>
+            <div class="chat-msg bot">What's your budget range?</div>
+            <div class="chat-msg user">₹60–80 lakh</div>
+            <div class="chat-msg bot">Great! Which area are you considering?</div>
+            <div class="chat-typing">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ HOW IT WORKS ═══════════════ -->
+    <section class="section how-it-works" id="how-it-works">
+      <div class="container">
+        <div class="section-label">Process</div>
+        <h2 class="section-title">From visitor to site visit — <span class="highlight">automatically.</span></h2>
+        <p class="section-sub">Your chatbot works 24/7 so you don't have to chase leads.</p>
+
+        <div class="flow-steps">
+          <!-- Step 1 -->
+          <div class="flow-step animate-slide-up" style="--delay:0s">
+            <div class="step-icon-wrap">
+              <div class="step-icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="8" r="3.5" stroke="currentColor" stroke-width="1.6"/><path d="M5 19c0-3.866 3.134-7 7-7s7 3.134 7 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              </div>
+              <div class="step-num">01</div>
+            </div>
+            <div class="step-title">Visitor Lands</div>
+            <div class="step-desc">Someone visits your site or project page</div>
+          </div>
+
+          <div class="flow-arrow" aria-hidden="true">
+            <svg viewBox="0 0 40 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6h36M30 1l6 5-6 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="flow-step animate-slide-up" style="--delay:0.08s">
+            <div class="step-icon-wrap">
+              <div class="step-icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="step-num">02</div>
+            </div>
+            <div class="step-title">Chatbot Engages</div>
+            <div class="step-desc">Collects budget, location &amp; BHK preference</div>
+          </div>
+
+          <div class="flow-arrow" aria-hidden="true">
+            <svg viewBox="0 0 40 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6h36M30 1l6 5-6 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="flow-step animate-slide-up" style="--delay:0.16s">
+            <div class="step-icon-wrap">
+              <div class="step-icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z" stroke="currentColor" stroke-width="1.6"/></svg>
+              </div>
+              <div class="step-num">03</div>
+            </div>
+            <div class="step-title">Lead Qualified</div>
+            <div class="step-desc">Captures phone number, confirms intent</div>
+          </div>
+
+          <div class="flow-arrow" aria-hidden="true">
+            <svg viewBox="0 0 40 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6h36M30 1l6 5-6 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="flow-step animate-slide-up" style="--delay:0.24s">
+            <div class="step-icon-wrap">
+              <div class="step-icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M13.73 21a2 2 0 0 1-3.46 0" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              </div>
+              <div class="step-num">04</div>
+            </div>
+            <div class="step-title">Instant Alert</div>
+            <div class="step-desc">You get notified via SMS, WhatsApp, or email</div>
+          </div>
+
+          <div class="flow-arrow" aria-hidden="true">
+            <svg viewBox="0 0 40 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6h36M30 1l6 5-6 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="flow-step animate-slide-up" style="--delay:0.32s">
+            <div class="step-icon-wrap">
+              <div class="step-icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 22V12h6v10" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="step-num">05</div>
+            </div>
+            <div class="step-title">Site Visit Booked</div>
+            <div class="step-desc">Ready-to-visit buyer shows up at your site</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ LIVE DEMO ═══════════════ -->
+    <section class="section demo-section" id="demo">
+      <div class="container demo-inner">
+        <div class="demo-text">
+          <div class="section-label">Live Demo</div>
+          <h2 class="section-title">See the chatbot<br /><span class="highlight">in action.</span></h2>
+          <p class="section-sub">This is exactly what your property buyers will see. Try it yourself — no signup needed.</p>
+          <ul class="demo-features">
+            <li>
+              <svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="#1a73e8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Qualifies buyer intent in under 2 minutes
+            </li>
+            <li>
+              <svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="#1a73e8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Works on mobile and desktop
+            </li>
+            <li>
+              <svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="#1a73e8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Customisable to your brand
+            </li>
+          </ul>
+        </div>
+
+        <!-- Chatbot embed placeholder — replace with your actual script -->
+        <div class="demo-widget-wrap">
+          <div class="demo-widget" id="verbe-chatbot-container">
+            <div class="demo-placeholder">
+              <div class="demo-chat-header">
+                <div class="chat-avatar">V</div>
+                <div>
+                  <div class="chat-name">Verbe Assistant</div>
+                  <div class="chat-status"><span class="badge-dot small"></span> Online</div>
+                </div>
+              </div>
+              <div class="demo-chat-messages" id="demo-messages">
+                <div class="demo-msg bot">Hi! I'm here to help you find your dream property 🏠</div>
+                <div class="demo-msg bot">What's your budget range?</div>
+              </div>
+              <div class="demo-chat-input">
+                <input type="text" id="demo-input" placeholder="Type your reply…" autocomplete="off" />
+                <button id="demo-send" aria-label="Send">
+                  <svg viewBox="0 0 20 20" fill="none"><path d="M17.5 10L3 4l2.5 6-2.5 6L17.5 10z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+                </button>
+              </div>
+              <div class="demo-label">⚡ Powered by Verbe · Your chatbot will appear here</div>
+            </div>
+            <!-- Inject your actual chatbot script below -->
+            <!-- <script src="https://yourdomain.com/chatbot.js?key=YOUR_API_KEY"></script> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ PROOF / RESULTS ═══════════════ -->
+    <section class="section proof-section" id="proof">
+      <div class="container">
+        <div class="section-label">Results</div>
+        <h2 class="section-title">Real numbers from<br /><span class="highlight">real builders.</span></h2>
+
+        <div class="stats-row">
+          <div class="stat-card animate-fade-up" style="--delay:0s">
+            <div class="stat-num">12<span class="stat-plus">+</span></div>
+            <div class="stat-label">Leads in 10 days</div>
+            <div class="stat-sub">From a single landing page</div>
+          </div>
+          <div class="stat-card animate-fade-up" style="--delay:0.1s">
+            <div class="stat-num">5</div>
+            <div class="stat-label">Site visits booked</div>
+            <div class="stat-sub">All from chatbot conversations</div>
+          </div>
+          <div class="stat-card animate-fade-up" style="--delay:0.2s">
+            <div class="stat-num">30<span class="stat-plus">s</span></div>
+            <div class="stat-label">Setup time</div>
+            <div class="stat-sub">One script tag. That's it.</div>
+          </div>
+        </div>
+
+        <!-- Testimonial -->
+        <div class="testimonial-wrap animate-fade-up" style="--delay:0.3s">
+          <figure class="testimonial">
+            <blockquote>
+              "We got our first qualified lead within 6 hours of installing Verbe. The chatbot handled all the initial questions — budget, location, timeline — and sent me a WhatsApp alert. I just had to show up for the site visit."
+            </blockquote>
+            <figcaption>
+              <div class="testimonial-avatar">R</div>
+              <div>
+                <div class="testimonial-name">Rahul Mehta</div>
+                <div class="testimonial-role">Developer, Mehta Constructions · Mumbai</div>
+              </div>
+            </figcaption>
+          </figure>
+          <div class="testimonial-placeholder-note">
+            <svg viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.5" stroke="#94a3b8" stroke-width="1.2"/><path d="M8 5v4M8 11v.5" stroke="#94a3b8" stroke-width="1.2" stroke-linecap="round"/></svg>
+            Testimonial placeholder — replace with your client stories
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ PRICING ═══════════════ -->
+    <section class="section pricing-section" id="pricing">
+      <div class="container">
+        <div class="section-label">Pricing</div>
+        <h2 class="section-title">Transparent pricing.<br /><span class="highlight">No surprises.</span></h2>
+        <p class="section-sub">Start with the pilot. Upgrade when you're ready.</p>
+
+        <div class="pricing-cards">
+          <!-- Pilot Plan -->
+          <div class="pricing-card animate-fade-up" style="--delay:0s">
+            <div class="plan-tag">Start here</div>
+            <div class="plan-name">Pilot Plan</div>
+            <div class="plan-price">
+              <span class="price-currency">₹</span>999
+              <span class="price-period">/ 14 days</span>
+            </div>
+            <ul class="plan-features">
+              <li>
+                <svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="#1a73e8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                One-time chatbot setup
+              </li>
+              <li>
+                <svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="#1a73e8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Lead capture &amp; qualification
+              </li>
+              <li>
+                <svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="#1a73e8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Instant WhatsApp/SMS alerts
+              </li>
+              <li>
+                <svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="#1a73e8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                3–5 guaranteed qualified leads
+              </li>
+              <li class="feature-muted">
+                <svg viewBox="0 0 16 16" fill="none"><path d="M4 4l8 8M12 4l-8 8" stroke="#cbd5e1" stroke-width="1.4" stroke-linecap="round"/></svg>
+                Priority support
+              </li>
+            </ul>
+            <a href="#" class="btn btn-primary btn-block">Start Pilot — ₹999</a>
+            <div class="plan-note">No contract. Cancel anytime.</div>
+          </div>
+
+          <!-- Monthly Plan -->
+          <div class="pricing-card pricing-card-featured animate-fade-up" style="--delay:0.1s">
+            <div class="plan-tag plan-tag-featured">Most popular</div>
+            <div class="plan-name">Monthly Plan</div>
+            <div class="plan-price">
+              <span class="price-currency">₹</span>1,999
+              <span class="price-period">/ month</span>
+            </div>
+            <ul class="plan-features">
+              <li>
+                <svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Everything in Pilot
+              </li>
+              <li>
+                <svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Unlimited leads
+              </li>
+              <li>
+                <svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Custom chatbot branding
+              </li>
+              <li>
+                <svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Priority support (24h response)
+              </li>
+              <li>
+                <svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Monthly analytics report
+              </li>
+            </ul>
+            <a href="#" class="btn btn-white btn-block">Get Monthly Plan</a>
+            <div class="plan-note plan-note-light">Billed monthly. Cancel anytime.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ INSTALL IN 30 SECONDS ═══════════════ -->
+    <section class="section install-section" id="install">
+      <div class="container">
+        <div class="section-label">Installation</div>
+        <h2 class="section-title">Install in <span class="highlight">30 seconds.</span></h2>
+        <p class="section-sub">No developers needed. Just copy, paste, done.</p>
+
+        <div class="install-wrap">
+          <div class="install-steps">
+            <div class="install-step">
+              <div class="istep-num">1</div>
+              <div class="istep-text">Sign up and get your API key</div>
+            </div>
+            <div class="install-step">
+              <div class="istep-num">2</div>
+              <div class="istep-text">Copy the script below</div>
+            </div>
+            <div class="install-step">
+              <div class="istep-num">3</div>
+              <div class="istep-text">Paste before <code>&lt;/body&gt;</code> on your site</div>
+            </div>
+          </div>
+
+          <div class="code-block-wrap">
+            <div class="code-block-header">
+              <div class="code-dots" aria-hidden="true">
+                <span></span><span></span><span></span>
+              </div>
+              <span class="code-lang">HTML</span>
+              <button class="copy-btn" id="copy-btn" aria-label="Copy code to clipboard">
+                <svg id="copy-icon" viewBox="0 0 16 16" fill="none"><rect x="5" y="4" width="8" height="10" rx="1.5" stroke="currentColor" stroke-width="1.4"/><path d="M3 12H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+                <svg id="check-icon" class="hidden" viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="#4ade80" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span id="copy-label">Copy</span>
+              </button>
+            </div>
+            <pre class="code-block" id="code-snippet"><code>&lt;script src="https://cdn.verbe.ai/chatbot.js?key=<span class="code-key" id="api-key-display">YOUR_API_KEY</span>"&gt;&lt;/script&gt;</code></pre>
+            <div class="code-footer">
+              <svg viewBox="0 0 16 16" fill="none"><path d="M8 1v6l3 3" stroke="#64748b" stroke-width="1.3" stroke-linecap="round"/><circle cx="8" cy="8" r="6.5" stroke="#64748b" stroke-width="1.3"/></svg>
+              Copy and paste this before the <code>&lt;/body&gt;</code> tag. That's it. Chatbot goes live instantly.
+            </div>
+          </div>
+
+          <!-- API Key input -->
+          <div class="apikey-preview">
+            <div class="apikey-label">Preview with your API key</div>
+            <div class="apikey-input-wrap">
+              <svg viewBox="0 0 20 20" fill="none"><path d="M8 11a5 5 0 1 0 0-10 5 5 0 0 0 0 10zM18 18l-4-4" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/></svg>
+              <input type="text" id="api-key-input" placeholder="Paste your API key here…" maxlength="48" aria-label="Preview API key" />
+            </div>
+            <p class="apikey-hint">The snippet above updates live as you type.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ DASHBOARD / ACCESS NOTE ═══════════════ -->
+    <section class="section dashboard-section" id="dashboard">
+      <div class="container">
+        <div class="dashboard-card">
+          <div class="dashboard-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><rect x="1" y="1" width="38" height="38" rx="10" stroke="#1a73e8" stroke-width="1.5"/><rect x="8" y="8" width="10" height="10" rx="2" fill="#1a73e8" opacity=".2" stroke="#1a73e8" stroke-width="1.3"/><rect x="22" y="8" width="10" height="10" rx="2" fill="#1a73e8" opacity=".2" stroke="#1a73e8" stroke-width="1.3"/><rect x="8" y="22" width="10" height="10" rx="2" fill="#1a73e8" opacity=".2" stroke="#1a73e8" stroke-width="1.3"/><rect x="22" y="22" width="10" height="10" rx="2" fill="#1a73e8" opacity=".5" stroke="#1a73e8" stroke-width="1.3"/></svg>
+          </div>
+          <div class="dashboard-content">
+            <h3>Your dashboard is ready instantly.</h3>
+            <p>After signup, you get your <strong>API key immediately</strong>. Paste it into the script tag and your chatbot goes live. No waiting. No developer. No complexity.</p>
+            <ul class="dashboard-points">
+              <li>
+                <svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="#1a73e8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                API key delivered to your inbox on signup
+              </li>
+              <li>
+                <svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="#1a73e8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Zero coding required
+              </li>
+              <li>
+                <svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="#1a73e8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Works with any website builder (WordPress, Wix, Webflow…)
+              </li>
+            </ul>
+          </div>
+          <a href="#pricing" class="btn btn-primary">Get My API Key</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ FINAL CTA ═══════════════ -->
+    <section class="section final-cta" id="cta">
+      <div class="final-cta-bg" aria-hidden="true"></div>
+      <div class="container final-cta-inner">
+        <div class="section-label label-light">Get started today</div>
+        <h2 class="cta-headline">Start your pilot today.</h2>
+        <p class="cta-sub">₹999 for 14 days. 3–5 qualified leads guaranteed.<br />No contracts. No risk. Full setup included.</p>
+        <a href="#pricing" class="btn btn-white btn-xl">
+          Start ₹999 Pilot
+          <svg class="btn-arrow" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <p class="cta-reassurance">
+          <svg viewBox="0 0 16 16" fill="none"><path d="M8 2l1.09 3.26H13L10 7.27l1.18 3.73L8 8.77l-3.18 2.23L6 7.27 3 5.26h3.91L8 2z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+          Trusted by builders in Mumbai, Pune &amp; Hyderabad
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span class="logo-mark">V</span>
+          <span class="logo-text">Verbe</span>
+        </a>
+        <p>AI-powered lead generation<br />for real estate builders.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#install">Install</a>
+        <a href="mailto:hello@verbe.ai">Contact</a>
+      </nav>
+      <div class="footer-bottom">
+        <span>© 2025 Verbe. All rights reserved.</span>
+        <span>Made in Mumbai 🇮🇳</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
